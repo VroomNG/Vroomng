@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vroom.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vroom.com</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@material-tailwind/html@latest/styles/material-tailwind.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+
+    <script src="https://unpkg.com/@material-tailwind/html@latest/scripts/script-name.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        rel="stylesheet"
+        type="text/css"
+        charset="UTF-8"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+      />
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
+/>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              neutral: '#F8FAFC',
+              brand600: '#0A0214',
+              brand300: '#3b2358',
+              brand400: '#1FBFFD',
+              brand200: '#66d1fcf5',
+              gray900: '#101828',
+              gray600: '#475467',
+              gray300: '#D0D5DD',
+              gray50: '#F9FAFB',
+              brand50: '#F1E7FC',
+              prime100:'#F4EBFF',
+              prime50: '#F9F5FF'
+            },
+            backgroundImage: {
+                'pattern': "url('assets/images/pattern.jpg')",
+                'footer-texture': "url('/img/footer-texture.png')",
+              } 
+          }
+        }
+      }
+    </script>
+    
+  </body>
+</html>
